@@ -1,0 +1,15 @@
+.SearchBar{
+    .searchbar{
+        display: none;
+        background-color: rgb(226, 226, 226);
+        border: 0;
+        border-radius: 3px;
+    }
+    .searchbar:focus{
+        outline: none;
+        background-color: rgb(238, 238, 238);
+    }
+    .searchbar.visible{
+        display: inline;
+    }
+}

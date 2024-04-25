@@ -1,0 +1,13 @@
+.SearchBar .searchbar {
+  display: none;
+  background-color: rgb(226, 226, 226);
+  border: 0;
+  border-radius: 3px;
+}
+.SearchBar .searchbar:focus {
+  outline: none;
+  background-color: rgb(238, 238, 238);
+}
+.SearchBar .searchbar.visible {
+  display: inline;
+}/*# sourceMappingURL=SearchBar.css.map */
